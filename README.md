@@ -53,10 +53,6 @@ The Career Guidance Roadmap Application is a web-based tool designed to help use
 3.  bashCopy codenpm start
     
 
-Project Structure
------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cssCopy code├── public  │   ├── index.html  │   └── path/to/marker-icon.png  ├── src  │   ├── components  │   │   ├── About.js  │   │   ├── Contact.js  │   │   ├── Dashboard.js  │   │   ├── Footer.js  │   │   ├── Home.js  │   │   ├── Navbar.js  │   │   ├── ProtectedRoute.js  │   │   ├── Quiz.js  │   │   ├── Results.js  │   │   ├── SignIn.js  │   │   └── SignUp.js  │   ├── context  │   │   ├── AuthContext.js  │   │   └── QuizContext.js  │   ├── firebaseConfig.js  │   ├── GlobalStyle.js  │   ├── App.js  │   ├── index.js  │   └── styles  │       └── theme.js  ├── .gitignore  ├── package.json  └── README.md   `
 
 Usage
 -----
