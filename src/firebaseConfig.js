@@ -3,13 +3,15 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID
+  apiKey: "AIzaSyACs9GNayXLKOJPdU0ZDglD3lrYI8UnguQ",
+  authDomain: "roadmap-front-end.firebaseapp.com",
+  projectId: "roadmap-front-end",
+  storageBucket: "roadmap-front-end.appspot.com",
+  messagingSenderId: "861202941689",
+  appId: "1:861202941689:web:5f707d85b10dcd1df28428",
+  measurementId: "G-C6CMTXL3H6"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
