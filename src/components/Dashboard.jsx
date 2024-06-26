@@ -34,7 +34,7 @@ const Dashboard = () => {
   const [submissions, setSubmissions] = useState([]);
 
   useEffect(() => {
-    // Fetch submissions data (mocked for now)
+    
     const fetchData = async () => {
       const data = [
         { id: 1, name: 'John Doe', email: 'john@example.com', message: 'Hello!' },
